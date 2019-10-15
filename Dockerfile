@@ -1,4 +1,4 @@
-FROM circleci/rust:1.40
+FROM circleci/rust:latest
 
 RUN cargo install cargo2junit
 
